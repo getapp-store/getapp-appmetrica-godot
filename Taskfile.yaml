@@ -1,0 +1,23 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  GREETING: Hello, World!
+
+tasks:
+  default:
+    cmds:
+      - echo "{{.GREETING}}"
+    silent: true
+
+  build:
+    cmds:
+      - ./gradlew build
+      - cp app-metrica/AppMetrica.gdap app-metrica/build/outputs/aar/AppMetrica.gdap
+
+  example:
+    deps: [build]
+    cmds:
+      - cp app-metrica/build/outputs/aar/appmetrica-debug.aar ./example/android/plugins/appmetrica-release.aar
+      - cp app-metrica/build/outputs/aar/AppMetrica.gdap ./example/android/plugins/AppMetrica.gdap

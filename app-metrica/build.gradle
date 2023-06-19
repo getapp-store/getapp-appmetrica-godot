@@ -31,6 +31,17 @@ android {
 }
 
 dependencies {
+    File gdap = new File("app-metrica/AppMetrica.gdap")
+    def match = gdap.text =~ /(?<=remote=)[^;]+/
+
+    def remote = Eval.me(match[0])
+
+    for(item in remote){
+        println "implementing $item"
+        implementation item
+    }
+
+    compileOnly project(':godot-lib')
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'

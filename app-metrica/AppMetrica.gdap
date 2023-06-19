@@ -1,0 +1,9 @@
+[config]
+
+name="AppMetrica"
+binary_type="local"
+binary="appmetrica-release.aar"
+
+[dependencies]
+
+remote=["com.yandex.android:mobmetricalib:5.3.+"]
