@@ -2,7 +2,7 @@
 
 name="AppMetrica"
 binary_type="local"
-binary="appmetrica-release.aar"
+binary="app-metrica-release.aar"
 
 [dependencies]
 
