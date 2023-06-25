@@ -200,6 +200,11 @@ class AppMetrica(godot: Godot?) : GodotPlugin(godot) {
         YandexMetrica.reportRevenue(revenue.build())
     }
 
+    @UsedByGodot
+    fun sendEventsBuffer() {
+        YandexMetrica.sendEventsBuffer()
+    }
+
     companion object {
         const val AD_NETWORK = "network"
         const val AD_TYPE = "type"
