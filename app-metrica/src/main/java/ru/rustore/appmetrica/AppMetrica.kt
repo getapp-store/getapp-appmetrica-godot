@@ -112,6 +112,11 @@ class AppMetrica(godot: Godot?) : GodotPlugin(godot) {
     // report
 
     @UsedByGodot
+    fun reportAppOpen(name: String) {
+        YandexMetrica.reportAppOpen(name)
+    }
+
+    @UsedByGodot
     fun reportError(group: String, message: String) {
         YandexMetrica.reportError(group, message)
     }
