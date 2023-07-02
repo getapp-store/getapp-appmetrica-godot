@@ -34,6 +34,7 @@ class AppMetrica(godot: Godot?) : GodotPlugin(godot) {
         }
 
         YandexMetrica.activate(godot.requireContext(), config.build())
+        YandexMetrica.reportAppOpen(godot.requireActivity())
     }
 
     // config
