@@ -1,4 +1,4 @@
-package ru.rustore.appmetrica
+package ru.kovardin.appmetrica
 
 import org.json.JSONArray
 import org.json.JSONObject

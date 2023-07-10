@@ -1,4 +1,4 @@
-package ru.rustore.appmetrica
+package ru.kovardin.appmetrica
 
 import com.yandex.metrica.AdRevenue
 import com.yandex.metrica.AdType

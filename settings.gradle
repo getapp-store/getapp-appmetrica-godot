@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "getapp-appmetrica-godot"
 include ':app'
 include ':godot-lib'
-include ':app-metrica'
+include ':godot-app-metrica'

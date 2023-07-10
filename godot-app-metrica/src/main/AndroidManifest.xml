@@ -3,6 +3,6 @@
     <application>
         <meta-data
             android:name="org.godotengine.plugin.v1.AppMetrica"
-            android:value="ru.rustore.appmetrica.AppMetrica" />
+            android:value="ru.kovardin.appmetrica.AppMetrica" />
     </application>
 </manifest>

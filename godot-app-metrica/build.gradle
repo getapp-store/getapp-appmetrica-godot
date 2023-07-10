@@ -31,7 +31,7 @@ android {
 }
 
 dependencies {
-    File gdap = new File("app-metrica/AppMetrica.gdap")
+    File gdap = new File("godot-app-metrica/AppMetrica.gdap")
     def match = gdap.text =~ /(?<=remote=)[^;]+/
 
     def remote = Eval.me(match[0])

@@ -2,7 +2,7 @@
 
 name="AppMetrica"
 binary_type="local"
-binary="app-metrica-release.aar"
+binary="godot-app-metrica-release.aar"
 
 [dependencies]
 

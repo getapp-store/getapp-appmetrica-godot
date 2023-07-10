@@ -1,4 +1,4 @@
-package ru.rustore.appmetrica
+package ru.kovardin.appmetrica
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import ru.rustore.appmetrica.ui.theme.AppmetricaTheme
+import ru.kovardin.appmetrica.ui.theme.AppmetricaTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

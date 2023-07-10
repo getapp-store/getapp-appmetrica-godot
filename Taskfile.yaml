@@ -14,10 +14,10 @@ tasks:
   build:
     cmds:
       - ./gradlew build
-      - cp app-metrica/AppMetrica.gdap app-metrica/build/outputs/aar/AppMetrica.gdap
+      - cp godot-app-metrica/AppMetrica.gdap godot-app-metrica/build/outputs/aar/AppMetrica.gdap
 
   example:
     deps: [build]
     cmds:
-      - cp app-metrica/build/outputs/aar/appmetrica-debug.aar ./example/android/plugins/appmetrica-release.aar
-      - cp app-metrica/build/outputs/aar/AppMetrica.gdap ./example/android/plugins/AppMetrica.gdap
+      - cp godot-app-metrica/build/outputs/aar/godot-app-metrica-debug.aar ./example/android/plugins/godot-app-metrica-release.aar
+      - cp godot-app-metrica/build/outputs/aar/AppMetrica.gdap ./example/android/plugins/AppMetrica.gdap

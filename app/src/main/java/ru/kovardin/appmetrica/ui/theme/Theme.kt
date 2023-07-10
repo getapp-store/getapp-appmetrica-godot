@@ -1,4 +1,4 @@
-package ru.rustore.appmetrica.ui.theme
+package ru.kovardin.appmetrica.ui.theme
 
 import android.app.Activity
 import android.os.Build
